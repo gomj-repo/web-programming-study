@@ -6,7 +6,11 @@
   <title>
     헤드
   </title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/article-style.css">
+  <link rel="stylesheet" href="css/default-style.css">
+  <link rel="stylesheet" href="css/design-style.css">
+  <link rel="stylesheet" href="css/general-style.css">
+  <link rel="stylesheet" href="css/header-style.css">
 </head>
 
 <body>
@@ -25,346 +29,176 @@
       </p>
 
       <!-- 공백 -->
-      <div class="col-spacer" style="height: 20px"></div>
+      <div class="col-spacer-20px"></div>
       <button class="button-green">자세히보기</button>
     </div>
   </header>
 
-  <article>
-    <div id="body-style">
-      <div class="row center">
-        <div>
-          <h2>EO 피어러닝 프로그램은</h2>
-          <p>
-            앞서간 창업가의 이야기를 듣고 동료 창업가와<br>
-            함께 배우는, 스타트 피어러닝 프로그램입니다.
-          </p>
+  <article class="article-style col-gap-80px">
+    <section class="row center col-gap-40px">
+      <div>
+        <h2>EO 피어러닝 프로그램은</h2>
+        <p>
+          앞서간 창업가의 이야기를 듣고 동료 창업가와<br>
+          함께 배우는, 스타트 피어러닝 프로그램입니다.
+        </p>
+      </div>
+
+      <!-- 캡슐 디자인 -->
+      <div class="row center capsule-design">
+        <p class="outline-circle-green">
+          피어리더의<br>
+          <strong>창업교육</strong>
+        </p>
+        ×
+        <p class="outline-circle-white">
+          동료 창업가와<br>
+          <strong>피어러닝</strong>
+        </p>
+      </div>
+     </section>
+
+    <!-- 이미지 디자인 -->
+    <section class="column center">
+      <div class="image-frame space-between">
+        <div style="padding: 0 10%">
+          <h3>
+            썸네일 워딩이<br>
+            여기에 들어갑니다.
+          </h3>
+          <button class="button-green">
+            버튼명
+          </button>
         </div>
 
-        <!-- 공백 -->
-        <div class="row-spacer" style="width: 40px"></div>
-
-        <!-- 캡슐 디자인 -->
-        <div class="row center capsule-design">
-          <div class="outline-circle-green">
-            <p>
-              피어리더의<br>
-              <strong>창업교육</strong>
-            </p>
-          </div>
-          <div class="row-spacer"></div>
-          ×
-          <div class="row-spacer"></div>
-          <div class="outline-circle-white">
-            <p>
-              동료 창업가와<br>
-              <strong>피어러닝</strong>
-            </p>
+        <!-- 우측하단 버튼 TODO: 하단 배치가 잘 안된다. -->
+        <div class="column image-swap-button">
+          <div class="center row-gap-12px">
+            <div class="filled-circle-white"></div>
+            <p>1/2</p>
+            <div class="filled-circle-white"></div>
           </div>
         </div>
       </div>
+    </section>
 
-      <!-- 공백 -->
-      <div class="col-spacer " style="height: 120px"></div>
-
-      <!-- 이미지 디자인 -->
-      <section class="row center">
-        <div class="image-frame space-between" style="height:320px">
-          <div style="padding: 0 10%">
-            <h3>
-              썸네일 워딩이<br>
-              여기에 들어갑니다.
-            </h3>
-            <button class="button-green">
-              버튼명
-            </button>
-          </div>
-
-          <!-- 우측하단 버튼 -->
-          <div class="column image-swap-button">
-            <div style="
-            display: flex;
-            align-items: center;
-            flex-wrap: wrap;
-          ">
-              <div class="filled-circle-white"></div>
-              <div class="row-spacer"></div>
-              <p>1/2</p>
-              <div class="row-spacer"></div>
-              <div class="filled-circle-white"></div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- 공백 -->
-      <div class="col-spacer" style="height: 80px"></div>
-
-      <!-- 전체 프로그램 -->
-      <section class="column center">
+    <!-- 전체 프로그램 -->
+    <section class="column center col-gap-60px">
+      <div>
         <h3>전체 프로그램</h3>
         <hr class="dash">
+      </div>
 
-        <!-- 공백 -->
-        <div class="col-spacer" style="height: 60px"></div>
+      <!-- 본문 -->
+      <div class="row space-between row-gap-24px">
+        <div class="program-frame">테스트</div>
+        <div class="program-frame">테스트</div>
+        <div class="program-frame">테스트</div>
+      </div>
+    </section>
 
-        <!-- 본문 -->
-        <div class="row space-between">
-          <div class="program-frame">
-            테스트
-          </div>
-
-          <!-- 공백 -->
-          <div class="row-spacer" style="width: 24px"></div>
-
-          <div class="program-frame">
-            테스트
-          </div>
-
-          <!-- 공백 -->
-          <div class="row-spacer" style="width: 24px"></div>
-
-          <div class="program-frame">
-            테스트
-          </div>
-        </div>
-      </section>
-
-      <!-- 공백 -->
-      <div class="col-spacer" style="height: 80px"></div>
-
-      <!-- 피어리더 소개 -->
-      <section class="column center">
+    <!-- 피어리더 소개 -->
+    <section class="column center col-gap-60px">
+      <div>
         <h3>함께 하는 피어 리더를 소개합니다</h3>
         <hr class="dash">
+      </div>
 
-        <!-- 공백 -->
-        <div class="col-spacer" style="height: 60px"></div>
+      <!-- 본문 -->
+      <div class="row center row-gap-24px">
+        <div class="profile-frame">테스트</div>
+        <div class="profile-frame">테스트</div>
+        <div class="profile-frame">테스트</div>
+        <div class="profile-frame">테스트</div>
+      </div>
+    </section>
 
-        <!-- 본문 -->
-        <div class="row space-between">
-          <div class="profile-frame">
-            테스트
-          </div>
-
-          <!-- 공백 -->
-          <div class="row-spacer" style="width: 24px"></div>
-
-          <div class="profile-frame">
-            테스트
-          </div>
-
-          <!-- 공백 -->
-          <div class="row-spacer" style="width: 24px"></div>
-
-          <div class="profile-frame">
-            테스트
-          </div>
-
-          <!-- 공백 -->
-          <div class="row-spacer" style="width: 24px"></div>
-
-          <div class="profile-frame">
-            테스트
-          </div>
-        </div>
-      </section>
-
-      <!-- 공백 -->
-      <div class="col-spacer" style="height: 80px"></div>
-
-      <!-- 참가자 후기 -->
-      <section class="column center">
+    <!-- 참가자 후기 -->
+    <section class="column center col-gap-60px">
+      <div>
         <h3>실제 참가자의 생생한 후기</h3>
         <hr class="dash">
+      </div>
 
-        <!-- 공백 -->
-        <div class="col-spacer" style="height: 60px"></div>
-
+      <div class="col-gap-36px">
         <!-- 본문 -->
-        <div class="row space-between">
-          <div class="review-frame">
-            테스트
-          </div>
-
-          <!-- 공백 -->
-          <div class="row-spacer" style="width: 24px"></div>
-
-          <div class="review-frame">
-            테스트
-          </div>
-
-          <!-- 공백 -->
-          <div class="row-spacer" style="width: 24px"></div>
-
-          <div class="review-frame">
-            테스트
-          </div>
-
-          <!-- 공백 -->
-          <div class="row-spacer" style="width: 24px"></div>
-
-          <div class="review-frame">
-            테스트
-          </div>
-
-          <!-- 공백 -->
-          <div class="row-spacer" style="width: 24px"></div>
-
-          <div class="review-frame">
-            테스트
-          </div>
+        <div class="row center row-gap-24px">
+          <div class="review-frame">테스트</div>
+          <div class="review-frame">테스트</div>
+          <div class="review-frame">테스트</div>
+          <div class="review-frame">테스트</div>
+          <div class="review-frame">테스트</div>
         </div>
 
-        <!-- 공백 -->
-        <div class="col-spacer" style="height: 36px"></div>
-        <p>
-          창업가 피어러닝 참가자를 대상으로 익명으로 실시한 설문입니다.
-        </p>
-      </section>
+        <p>창업가 피어러닝 참가자를 대상으로 익명으로 실시한 설문입니다.</p>
+      </div>
+    </section>
 
-      <!-- 공백 -->
-      <div class="col-spacer" style="height: 80px"></div>
-
-      <!-- 주요 특징 -->
-      <section class="column center">
+    <!-- 주요 특징 -->
+    <section class="column center col-gap-60px">
+      <div>
         <h3 style="text-align: center">
           피어러닝 프로그램<br>
           주요 특징
         </h3>
         <hr class="dash">
+      </div>
 
-        <!-- 공백 -->
-        <div class="col-spacer" style="height: 60px"></div>
+      <!-- 본문 -->
+      <div class="row center row-gap-24px">
+        <div class="program-frame">테스트</div>
+        <div class="program-frame">테스트</div>
+        <div class="program-frame">테스트</div>
+      </div>
+    </section>
 
-        <!-- 본문 -->
-        <div class="row space-between">
-          <div class="program-frame">
-            테스트
-          </div>
-
-          <!-- 공백 -->
-          <div class="row-spacer" style="width: 24px"></div>
-
-          <div class="program-frame">
-            테스트
-          </div>
-
-          <!-- 공백 -->
-          <div class="row-spacer" style="width: 24px"></div>
-
-          <div class="program-frame">
-            테스트
-          </div>
-        </div>
-      </section>
-
-      <!-- 공백 -->
-      <div class="col-spacer" style="height: 80px"></div>
-
-      <!-- 도움을 준 분들 -->
-      <section class="column center">
+    <!-- 도움을 준 분들 -->
+    <section class="column center col-gap-60px">
+      <div>
         <h3>
           프로그램 제작에
           도움을 주신 분들
         </h3>
         <hr class="dash">
+      </div>
 
-        <!-- 공백 -->
-        <div class="col-spacer" style="height: 60px"></div>
-
-        <!-- 본문 -->
-        <div class="row space-between">
-          <div class="helper-frame">
-            테스트
-          </div>
-
-          <!-- 공백 -->
-          <div class="row-spacer" style="width: 24px"></div>
-
-          <div class="helper-frame">
-            테스트
-          </div>
-
-          <!-- 공백 -->
-          <div class="row-spacer" style="width: 24px"></div>
-
-          <div class="helper-frame">
-            테스트
-          </div>
-
-          <!-- 공백 -->
-          <div class="row-spacer" style="width: 24px"></div>
-
-          <div class="helper-frame">
-            테스트
-          </div>
-
-          <!-- 공백 -->
-          <div class="row-spacer" style="width: 24px"></div>
-
-          <div class="helper-frame">
-            테스트
-          </div>
-
-          <!-- 공백 -->
-          <div class="row-spacer" style="width: 24px"></div>
-
-          <div class="helper-frame">
-            테스트
-          </div>
-
-          <!-- 공백 -->
-          <div class="row-spacer" style="width: 24px"></div>
-
-          <div class="helper-frame">
-            테스트
-          </div>
-
-          <!-- 공백 -->
-          <div class="row-spacer" style="width: 24px"></div>
-
-          <div class="helper-frame">
-            테스트
-          </div>
-
-          <!-- 공백 -->
-          <div class="row-spacer" style="width: 24px"></div>
-
-          <div class="helper-frame">
-            테스트
-          </div>
-        </div>
-      </section>
-
-      <!-- 공백 -->
-      <div class="col-spacer" style="height: 20px"></div>
-    </div>
-
-    <section class="header-style center">
-      <p>성공적인 창업을 위한 긴 여정</p>
-      <h2>피어러닝 프로그램과 함께하세요</h2>
-      <button class="button-green">
-        자세히보기
-      </button>
+      <!-- 본문 -->
+      <div class="row center row-gap-24px">
+        <div class="helper-frame">테스트</div>
+        <div class="helper-frame">테스트</div>
+        <div class="helper-frame">테스트</div>
+        <div class="helper-frame">테스트</div>
+        <div class="helper-frame">테스트</div>
+        <div class="helper-frame">테스트</div>
+        <div class="helper-frame">테스트</div>
+        <div class="helper-frame">테스트</div>
+        <div class="helper-frame">테스트</div>
+      </div>
     </section>
   </article>
 
-  <footer class="footer-frame">
+  <!-- 구조 고민중... -->
+  <section class="header-style center">
+    <p>성공적인 창업을 위한 긴 여정</p>
+    <h2>피어러닝 프로그램과 함께하세요</h2>
+    <button class="button-green">
+      자세히보기
+    </button>
+  </section>
+
+  <footer class="footer-style">
     <div class="row space-between">
-      <div class="row center">
+      <div class="row center row-gap-12px">
         <p>이용약관</p>
-        <div class="row-spacer"></div><p>|</p><div class="row-spacer"></div>
+        <p>|</p>
         <p>개인정보처리방침</p>
-        <div class="row-spacer"></div><p>|</p><div class="row-spacer"></div>
+        <p>|</p>
         <p>채용문의</p>
       </div>
       <div class="row">
-        <div class="row center">
+        <div class="row center row-gap-12px">
           <p>블로그</p>
-          <div class="row-spacer"></div>
           <p>페이스북</p>
-          <div class="row-spacer"></div>
           <p>유튜브</p>
         </div>
       </div>

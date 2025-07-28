@@ -1,0 +1,45 @@
+.capsule-design {
+  width: fit-content;
+  padding: 4px 16px;
+  display: flex;
+  border: 1px dotted white;
+  border-radius: 100px;
+  gap: 12px;
+}
+
+.outline-circle-green {
+  width: 100px;
+  height: 100px;
+  display: flex; flex-direction: column; justify-content: center;
+
+  background-color: transparent;
+  border: 1px solid greenyellow;
+  border-radius: 100%;
+
+  text-align: center;
+  font-size: 12px;
+}
+
+.outline-circle-white {
+  width: 100px;
+  height: 100px;
+  display: flex; flex-direction: column; justify-content: center;
+
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 100%;
+
+  text-align: center;
+  font-size: 12px;
+}
+
+.filled-circle-white {
+  width: 20px;
+  height: 20px;
+
+  background-color: white;
+  border-radius: 100%;
+
+  text-align: center;
+  font-size: 12px;
+}

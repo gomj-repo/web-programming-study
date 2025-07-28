@@ -1,0 +1,86 @@
+.dash {
+  border-color: greenyellow;
+  width: 20px;
+}
+
+/* 아티클 설정 */
+.article-style {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 20%;
+  background-color:black;
+  color:white;
+  justify-content: center;
+}
+
+/* 바디 디자인 */
+.image-frame {
+  width: 100%;
+  min-height:320px;
+  display: flex;
+  background-color: burlywood;
+  border-radius: 12px;
+}
+
+.image-swap-button {
+  width: fit-content;
+  height: 90%;
+  padding: 0 4%;
+}
+
+.program-frame {
+  width: 240px;
+  height: 280px;
+  border-radius: 2%;
+  background-color: #191919;
+}
+
+.profile-frame {
+  width: 168px;
+  height: 252px;
+  border-radius: 2%;
+  background-color: #191919;
+}
+
+.review-frame {
+  width: 228px;
+  height: 158px;
+  border-radius: 2%;
+  background-color: #191919;
+}
+
+.helper-frame {
+  width: 136px;
+  height: 140px;
+  border-radius: 2%;
+  background-color: #191919;
+}
+
+/* 푸터 설정 */
+.footer-style {
+  padding: 8% 20%;
+  background-color: black;
+  color: white;
+}
+
+
+/* 컴포넌트 설정 */
+.button-green {
+  min-width: 92px;
+  min-height: 32px;
+  background-color: greenyellow;
+  border: 0;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.button-black {
+  width: 92px;
+  height: 32px;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+}

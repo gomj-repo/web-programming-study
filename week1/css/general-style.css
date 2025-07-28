@@ -1,0 +1,59 @@
+/* 범용 태그 구현 */
+.row {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+}
+
+.column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center
+}
+
+.space-between {
+  justify-content: space-between; align-items: center;
+}
+
+.col-spacer{
+  height: max-content;
+}
+
+.col-spacer-20px {
+  height: 20px;
+}
+
+.col-gap-36px {
+  gap: 36px;
+}
+
+.col-gap-40px {
+  gap: 40px;
+}
+
+.col-gap-60px {
+  gap: 60px;
+}
+
+.col-gap-80px {
+  gap: 80px;
+}
+
+.row-gap-12px {
+  gap: 12px;
+}
+
+.row-gap-24px {
+  gap: 24px;
+}
