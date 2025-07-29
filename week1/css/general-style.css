@@ -43,11 +43,11 @@
 .text-end { text-align: end; }
 
 /* 하위 태그들이 화면 밖으로 나오지 않도록 지정 */
-.set-wrap {
-  display: flex;
-  flex-wrap: wrap; /* 밑에 줄로 연결되게 설정 */
-  align-content: center; /* 자식들이 축소되어도 중앙 정렬 */
-}
+/*.set-wrap {*/
+/*  display: flex;*/
+/*  flex-wrap: wrap; !* 밑에 줄로 연결되게 설정 *!*/
+/*  align-content: center; !* 자식들이 축소되어도 중앙 정렬 *!*/
+/*}*/
 
 /* 부모의 너비를 물려받음 */
 .expand-width { width: 100%; }
@@ -61,7 +61,7 @@
 /* 높이를 최소로 축소함 */
 .collapse-height { height: fit-content; }
 
-.col-spacer-12px { height: 0.75rem; }
+.col-spacer-075rem { height: 0.75rem; }
 
 /* 하위 태그 줄간격 변경 태그 */
 .col-gap-025rem { gap: 0.250rem; }
@@ -71,8 +71,11 @@
 .col-gap-125rem { gap: 1.250rem; }
 .col-gap-150rem { gap: 1.500rem; }
 .col-gap-187rem { gap: 1.875rem; }
+.col-gap-200rem { gap: 2.000rem; }
 .col-gap-225rem { gap: 2.250rem; }
 .col-gap-250rem { gap: 2.500rem; }
+.col-gap-275rem { gap: 2.750rem; }
+.col-gap-300rem { gap: 3.000rem; }
 .col-gap-375rem { gap: 3.750rem; }
 .col-gap-500rem { gap: 5.000rem; }
 
@@ -80,15 +83,22 @@
 .row-gap-050rem { gap: 0.50rem; }
 .row-gap-075rem { gap: 0.75rem; }
 .row-gap-100rem { gap: 1.00rem; }
+.row-gap-125rem { gap: 1.25rem; }
 .row-gap-150rem { gap: 1.50rem; }
+.row-gap-175rem { gap: 1.75rem; }
+.row-gap-200rem { gap: 2.00rem; }
+.row-gap-225rem { gap: 2.25rem; }
 .row-gap-250rem { gap: 2.50rem; }
+.row-gap-275rem { gap: 2.75rem; }
+.row-gap-300rem { gap: 3.00rem; }
 .row-gap-375rem { gap: 3.75rem; }
 
-.hr-thick-1px {
+.hr-thick-006rem {
   width: 100%;
   border-width: 0.0625rem 0 0 0;
 }
 .hr-dash {
   border-color: greenyellow;
+  border-width: 0.175rem 0 0 0;
   width: 1.25rem;
 }
