@@ -1,16 +1,16 @@
 /* 아티클 설정 */
 .article-style {
   padding: 5% 20%;
-  background-color:black;
-  color:white;
+  background-color: black;
+  color: white;
 }
 
 /* 바디 디자인 */
 .thumbnail-frame {
-  min-height:20.5rem;
+  min-height: 20.5rem;
   background-color: burlywood;
-  border-radius: 12px;
-  padding: 0 20px 20px 80px;
+  border-radius: 0.75rem;
+  padding: 0 1.25rem 1.25rem 5rem;
 }
 
 .program-frame {
@@ -51,35 +51,34 @@
   padding: 8% 20%;
 }
 
-
 /* 컴포넌트 설정 */
 .button-green {
-  width: 92px;
-  height: 32px;
+  width: 5.75rem;         /* 92px → 5.75rem */
+  height: 2rem;           /* 32px → 2rem */
   background-color: greenyellow;
   border: 0;
-  border-radius: 5px;
+  border-radius: 0.3125rem; /* 5px → 0.3125rem */
   text-align: center;
   font-weight: bold;
 }
 
 .button-black {
-  width: 92px;
-  height: 32px;
+  width: 5.75rem;
+  height: 2rem;
   background-color: transparent;
-  border: 1px solid black;
-  border-radius: 5px;
+  border: 0.0625rem solid black; /* 1px → 0.0625rem */
+  border-radius: 0.3125rem;
   text-align: center;
   font-weight: bold;
 }
 
 /* 신청하기 버튼 */
 .apply-button {
-  min-width: 92px;
-  min-height: 32px;
+  min-width: 5.75rem;
+  min-height: 2rem;
   background-color: greenyellow;
   border: 0;
-  border-radius: 5px;
+  border-radius: 0.3125rem;
   text-align: center;
   font-weight: bold;
 }

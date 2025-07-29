@@ -1,33 +1,33 @@
 /* EO 피어러닝 프로그램은... 의 아이콘 */
 .capsule-design {
-  padding: 0 8px;
+  padding: 0 1rem;
   display: flex;
-  border: 1px dotted white;
-  border-radius: 100px;
-  gap: 12px;
+  border: 0.0625rem dotted white;
+  border-radius: 6.25rem;
+  gap: 0.75rem;
 }
 
 /* 원 (greenyellow/outlined) */
 .outlined-circle-greenyellow {
-  width: 84px;
-  height: 84px;
+  width: 5.25rem;
+  height: 5.25rem;
 
   color: greenyellow;
   background-color: transparent;
-  border: 1px solid greenyellow;
+  border: 0.0625rem solid greenyellow;
   border-radius: 100%;
 
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 /* 원 (white/outlined) */
 .outlined-circle-white {
-  width: 84px;
-  height: 84px;
+  width: 5.25rem;
+  height: 5.25rem;
 
   color: white;
   background-color: transparent;
-  border: 1px solid white;
+  border: 0.0625rem solid white;
   border-radius: 100%;
 
   text-align: center;
@@ -35,8 +35,8 @@
 
 /* 백색 채워진 원 */
 .filled-circle-white {
-  width: 24px;
-  height: 24px;
+  width: 1.5rem;
+  height: 1.5rem;
 
   background-color: white;
   border-radius: 100%;
@@ -48,18 +48,18 @@
 .recruiting-design {
   color: black;
   background-color: greenyellow;
-  border-radius: 100px;
+  border-radius: 6.25rem;
   padding: 0.2rem 0.5rem;
 
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 8px;
+  font-size: 0.5rem;
 }
 
 .leader-profile {
-  width: 52px;
-  height: 52px;
+  width: 3.25rem;
+  height: 3.25rem;
   background-color: #888888;
   border-radius: 100%;
 }
@@ -87,7 +87,7 @@
 .summarize-design {
   color: grey;
   background-color: transparent;
-  border-radius: 100px;
-  border: 1px solid grey;
+  border-radius: 6.25rem;
+  border: 0.0625rem solid grey;
   padding: 0.2rem 0.5rem;
 }
