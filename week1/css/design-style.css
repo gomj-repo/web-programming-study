@@ -46,6 +46,7 @@
 
 /* 모집 중 */
 .recruiting-design {
+  width: 2rem;
   color: black;
   background-color: greenyellow;
   border-radius: 6.25rem;
