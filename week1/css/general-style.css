@@ -1,59 +1,93 @@
 /* 범용 태그 구현 */
-.row {
-  height: 100%;
+
+/* 좌측부터 시작 */
+.row-start {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: start;
+  flex-direction: row; /* 행 설정 */
+  justify-content: flex-start; /* 왼쪽에 부착 */
 }
 
-.column {
-  width: 100%;
+/* 우측에 연결 */
+.row-end {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row; /* 행 설정 */
+  justify-content: flex-end; /* 오른쪽에 부착 */
 }
 
+/* 상단에 연결 */
+.col-top {
+  display: flex;
+  flex-direction: column; /* 열 설정 */
+  justify-content: flex-start; /* 윗쪽에 부착(default인데 명시) */
+}
+
+/* 하단에 연결 */
+.col-bottom {
+  display: flex;
+  flex-direction: column; /* 열 설정 */
+  justify-content: flex-end; /* 아래쪽에 부착 */
+}
+
+/* 중앙정렬 */
 .center {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center
+  justify-content: center; /* 메인축 중앙 정렬 */
+  align-items: center; /* 수직축 중앙 정렬 */
+}
+.justify-center { justify-content: center; }
+.align-center { align-items: center; }
+.text-center { text-align: center } /* 문자 열 정렬 */
+
+.space-between { justify-content: space-between; } /* space-between 정렬 */
+.space-evenly { justify-content: space-evenly; }
+.text-end { text-align: end; }
+
+/* 하위 태그들이 화면 밖으로 나오지 않도록 지정 */
+.set-wrap {
+  display: flex;
+  flex-wrap: wrap; /* 밑에 줄로 연결되게 설정 */
+  align-content: center; /* 자식들이 축소되어도 중앙 정렬 */
 }
 
-.space-between {
-  justify-content: space-between; align-items: center;
-}
+/* 부모의 너비를 물려받음 */
+.expand-width { width: 100%; }
 
-.col-spacer{
-  height: max-content;
-}
+/* 부모의 높이를 물려받음 */
+.expand-height { height: 100%; }
 
-.col-spacer-20px {
-  height: 20px;
-}
+/* 너비를 최소로 축소함 */
+.collapse-width { width: fit-content; }
 
-.col-gap-36px {
-  gap: 36px;
-}
+/* 높이를 최소로 축소함 */
+.collapse-height { height: fit-content; }
 
-.col-gap-40px {
-  gap: 40px;
-}
+.col-spacer-12px { height: 12px; }
 
-.col-gap-60px {
-  gap: 60px;
-}
+/* 하위 태그 줄간격 변경 태그 */
+.col-gap-4px { gap: 4px; }
+.col-gap-8px { gap: 8px; }
+.col-gap-12px { gap: 12px; }
+.col-gap-16px { gap: 16px; }
+.col-gap-20px { gap: 20px; }
+.col-gap-24px { gap: 24px; }
+.col-gap-36px { gap: 36px; }
+.col-gap-30px { gap: 30px; }
+.col-gap-40px { gap: 40px; }
+.col-gap-60px { gap: 60px; }
+.col-gap-80px { gap: 80px; }
 
-.col-gap-80px {
-  gap: 80px;
-}
+.row-gap-8px { gap: 8px; }
+.row-gap-12px { gap: 12px; }
+.row-gap-16px { gap: 16px; }
+.row-gap-24px { gap: 24px; }
+.row-gap-40px { gap: 40px; }
+.row-gap-60px { gap: 60px; }
 
-.row-gap-12px {
-  gap: 12px;
+.hr-thick-1px {
+  width: 100%;
+  border-width: 0.1rem 0 0 0;
 }
-
-.row-gap-24px {
-  gap: 24px;
+.hr-dash {
+  border-color: greenyellow;
+  width: 20px;
 }

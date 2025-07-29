@@ -1,13 +1,10 @@
 /* 헤더 설정 */
 .header-style {
-  display: flex;
-  flex-direction: column;
   padding: 8% 20%;
   background-color:gray;
-  justify-content: center;
+  color:white;
 }
 
 .header-inner-style {
-  width: fit-content;
   margin: 0 12px;
 }

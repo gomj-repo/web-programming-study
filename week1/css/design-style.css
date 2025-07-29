@@ -1,45 +1,93 @@
+/* EO 피어러닝 프로그램은... 의 아이콘 */
 .capsule-design {
-  width: fit-content;
-  padding: 4px 16px;
+  padding: 0 8px;
   display: flex;
   border: 1px dotted white;
   border-radius: 100px;
   gap: 12px;
 }
 
-.outline-circle-green {
-  width: 100px;
-  height: 100px;
-  display: flex; flex-direction: column; justify-content: center;
+/* 원 (greenyellow/outlined) */
+.outlined-circle-greenyellow {
+  width: 84px;
+  height: 84px;
 
+  color: greenyellow;
   background-color: transparent;
   border: 1px solid greenyellow;
   border-radius: 100%;
 
-  text-align: center;
   font-size: 12px;
 }
 
-.outline-circle-white {
-  width: 100px;
-  height: 100px;
-  display: flex; flex-direction: column; justify-content: center;
+/* 원 (white/outlined) */
+.outlined-circle-white {
+  width: 84px;
+  height: 84px;
 
+  color: white;
   background-color: transparent;
   border: 1px solid white;
   border-radius: 100%;
 
   text-align: center;
-  font-size: 12px;
 }
 
+/* 백색 채워진 원 */
 .filled-circle-white {
-  width: 20px;
-  height: 20px;
+  width: 24px;
+  height: 24px;
 
   background-color: white;
   border-radius: 100%;
 
   text-align: center;
-  font-size: 12px;
+}
+
+/* 모집 중 */
+.recruiting-design {
+  color: black;
+  background-color: greenyellow;
+  border-radius: 100px;
+  padding: 0.2rem 0.5rem;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 8px;
+}
+
+.leader-profile {
+  width: 52px;
+  height: 52px;
+  background-color: #888888;
+  border-radius: 100%;
+}
+
+.user-profile {
+  width: 1.8rem;
+  height: 1.8rem;
+  background-color: #888888;
+  border-radius: 100%;
+}
+
+.helper-profile {
+  width: 4rem;
+  height: 4rem;
+  background-color: #888888;
+  border-radius: 100%;
+}
+
+.contents-image {
+  width: 10rem;
+  height: 10rem;
+  background-color: #888888;
+}
+
+.summarize-design {
+  color: grey;
+  background-color: transparent;
+  border-radius: 100px;
+  border: 1px solid grey;
+  padding: 0.2rem 0.5rem;
 }

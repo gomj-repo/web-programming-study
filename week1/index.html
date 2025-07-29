@@ -1,173 +1,283 @@
 <!doctype html>
 <html class="no-js" lang="">
 
+<!-- NOTE 0. 헤드 -->
 <head>
   <meta charset="utf-8">
   <title>
     헤드
   </title>
   <link rel="stylesheet" href="css/article-style.css">
-  <link rel="stylesheet" href="css/default-style.css">
   <link rel="stylesheet" href="css/design-style.css">
+  <link rel="stylesheet" href="css/font-style.css">
   <link rel="stylesheet" href="css/general-style.css">
   <link rel="stylesheet" href="css/header-style.css">
 </head>
 
 <body>
-  <header class="header-style">
-    <div class="header-inner-style">
+  <!-- NOTE 1. <헤더> 대표 슬라이드 -->
+  <header class="header-style col-top">
+    <div class="header-inner-style col-top col-gap-12px">
       <!-- 제목 -->
-      <h1>
+      <span class="font-2_0rem font-bold">
         누구나 창업할 수 있는<br>
         세상을 만들기 위해
-      </h1>
+      </span>
 
-      <!-- 소개글 -->
-      <p>
+      <!-- 내용 -->
+      <span class="font-0_7rem font-lighter">
         어렵고 긴 창업 레이스 손을 내밀어줄<br>
         국내 최고 창업가와 투자자가 함께합니다.
-      </p>
+      </span>
 
-      <!-- 공백 -->
-      <div class="col-spacer-20px"></div>
-      <button class="button-green">자세히보기</button>
+      <!-- 버튼 -->
+      <div class="col-spacer-12px"></div>
+      <button class="button-green">
+        <span class="font-0_7rem font-lighter">자세히보기</span>
+      </button>
     </div>
   </header>
 
-  <article class="article-style col-gap-80px">
-    <section class="row center col-gap-40px">
-      <div>
-        <h2>EO 피어러닝 프로그램은</h2>
-        <p>
+  <!-- NOTE 2. EO 피어러닝 프로그램 소개 -->
+  <article class="article-style col-top col-gap-80px">
+    <section class="row-start center row-gap-60px">
+      <div class="col-top">
+        <!-- 제목 -->
+        <span class="font-1_4rem">EO 피어러닝 프로그램은</span><br>
+        <!-- 내용 -->
+        <span class="font-0_7rem font-lighter">
           앞서간 창업가의 이야기를 듣고 동료 창업가와<br>
           함께 배우는, 스타트 피어러닝 프로그램입니다.
-        </p>
+        </span>
       </div>
 
       <!-- 캡슐 디자인 -->
-      <div class="row center capsule-design">
-        <p class="outline-circle-green">
-          피어리더의<br>
-          <strong>창업교육</strong>
+      <div class="capsule-design row-start center">
+        <p class="outlined-circle-white col-top center">
+          <span class="font-0_7rem">
+            피어리더의<br>
+            <strong>창업교육</strong>
+          </span>
         </p>
-        ×
-        <p class="outline-circle-white">
+        <span class="font-0_9rem font-lighter">×</span>
+        <p class="outlined-circle-greenyellow col-top center">
           동료 창업가와<br>
           <strong>피어러닝</strong>
         </p>
       </div>
      </section>
 
-    <!-- 이미지 디자인 -->
-    <section class="column center">
-      <div class="image-frame space-between">
-        <div style="padding: 0 10%">
-          <h3>
+    <!-- NOTE 3. 공자사항 슬라이드 -->
+    <section class="col-top expand-height">
+      <!-- thumbnail-frame -->
+      <!-- TODO 백그라운드에 이미지 추가할 것 -->
+      <div class="thumbnail-frame row-start space-between">
+        <div class="col-top justify-center col-gap-36px">
+          <!-- 제목 -->
+          <span class="font-1_4rem font-  bol d">
             썸네일 워딩이<br>
             여기에 들어갑니다.
-          </h3>
+          </span>
+          <!-- 버튼 -->
           <button class="button-green">
-            버튼명
+            <span class="font-0_7rem font-lighter">버튼명</span>
           </button>
         </div>
 
-        <!-- 우측하단 버튼 TODO: 하단 배치가 잘 안된다. -->
-        <div class="column image-swap-button">
-          <div class="center row-gap-12px">
-            <div class="filled-circle-white"></div>
-            <p>1/2</p>
-            <div class="filled-circle-white"></div>
+        <!-- 슬라이드 이동 버튼 -->
+        <div class="col-bottom">
+          <div class="row-end center row-gap-12px">
+            <div class="filled-circle-white"></div> <!-- TODO 추가 디자인 -->
+            <span class="font-0_9rem font-lighter">1/2</span>
+            <div class="filled-circle-white"></div> <!-- TODO 추가 디자인 -->
           </div>
         </div>
       </div>
     </section>
 
-    <!-- 전체 프로그램 -->
-    <section class="column center col-gap-60px">
+    <!-- NOTE 4. 전체 프로그램 -->
+    <section class="col-top center col-gap-60px">
+      <!-- 섹션 제목 -->
       <div>
-        <h3>전체 프로그램</h3>
-        <hr class="dash">
+        <span class="font-1_3rem font-bold">전체 프로그램</span>
+        <hr class="hr-dash">
       </div>
 
-      <!-- 본문 -->
-      <div class="row space-between row-gap-24px">
-        <div class="program-frame">테스트</div>
+      <div class="row-start row-gap-24px">
+        <div class="program-frame col-top col-gap-40px">
+          <div class="col-top col-gap-12px">
+            <!-- 모집 시기 -->
+            <div class="row-start align-center row-gap-12px">
+              <p class="recruiting-design"><strong>모집중</strong></p>
+              <span class="font-0_5rem font-lighter">21.09.12AM 마감</span>
+            </div>
+            <!-- 제목 -->
+            <div class="row-start expand-width center space-between">
+              <span class="font-0_9rem font-bold">
+                초기 창업가를 위한<br>
+                사업계획서 프로그램
+              </span>
+              <img alt="" class="leader-profile" src=""> <!-- TODO 이미지 추가할 것 -->
+            </div>
+            <!-- 세부 정보 -->
+            <span class="row-start row-gap-16px">
+            <span class="font-0_6rem font-bold">피어 리더</span>
+            <span class="font-0_6rem">EQ Studio 김태용 대표</span>
+            </span>
+              <span class="row-start row-gap-16px">
+              <span class="font-0_6rem font-bold">모집 대상</span>
+              <span class="font-0_6rem">창업 아이템을 보유한 예비/초기 창업가</span>
+            </span>
+              <span class="row-start row-gap-16px">
+              <span class="font-0_6rem font-bold">참여 조건</span>
+              <span class="font-0_6rem">창업 아이템 기반의 사업계획서 완성</span>
+            </span>
+          </div>
+          <!-- 버튼 -->
+          <div class="row expand-width center">
+            <button class="apply-button">
+              <span class="font-0_7rem font-lighter">신청하기</span>
+            </button>
+          </div>
+        </div>
+
         <div class="program-frame">테스트</div>
         <div class="program-frame">테스트</div>
       </div>
     </section>
 
-    <!-- 피어리더 소개 -->
-    <section class="column center col-gap-60px">
+    <!-- NOTE 5. 피어리더 소개 -->
+    <section class="col-top center col-gap-60px">
+      <!-- 섹션 제목 -->
       <div>
-        <h3>함께 하는 피어 리더를 소개합니다</h3>
-        <hr class="dash">
+        <span class="font-1_3rem font-bold">함께 하는 피어 리더를 소개합니다</span>
+        <hr class="hr-dash">
       </div>
 
-      <!-- 본문 -->
-      <div class="row center row-gap-24px">
-        <div class="profile-frame">테스트</div>
+      <div class="row-start row-gap-24px">
+        <!-- 피어리더 이미지 -->
+        <div class="profile-frame"> <!-- TODO 백그라운드에 이미지 추가 -->
+          <div class="row-end expand-height">
+            <div class="col-bottom text-end col-gap-8px">
+              <!-- 이름 -->
+              <span class="font-1_3rem font-bold">김태용</span>
+              <!-- 영어이름 -->
+              <span class="font-0_7rem font-lighter">EO STUDIO CEO</span>
+            </div>
+          </div>
+        </div>
+
         <div class="profile-frame">테스트</div>
         <div class="profile-frame">테스트</div>
         <div class="profile-frame">테스트</div>
       </div>
     </section>
 
-    <!-- 참가자 후기 -->
-    <section class="column center col-gap-60px">
+    <!-- NOTE 6. 참가자 후기 -->
+    <section class="col-top center col-gap-60px">
+      <!-- 섹션 제목 -->
       <div>
-        <h3>실제 참가자의 생생한 후기</h3>
-        <hr class="dash">
+        <span class="font-1_3rem font-bold">실제 참가자의 생생한 후기</span>
+        <hr class="hr-dash">
       </div>
 
-      <div class="col-gap-36px">
-        <!-- 본문 -->
-        <div class="row center row-gap-24px">
-          <div class="review-frame">테스트</div>
+      <div class="row-start row-gap-40px">
+        <div class="row-start row-gap-24px">
+          <!-- review-frame -->
+          <div class="review-frame col-top">
+            <div class="row-start expand-width space-between">
+              <!-- 참가자 정보 -->
+              <div class="row-start align-center row-gap-8px">
+                <div class="user-profile"></div> <!-- TODO 백그라운드에 이미지 추가 -->
+                <div class="col-top col-gap-4px">
+                  <!-- 창업가 이름 -->
+                  <span class="font-0_6rem font-bold">초기 창업가 한00</span>
+                  <!-- 창업가 소속 -->
+                  <span class="font-0_5rem font-lighter">사업계획서 프로그램 1기</span>
+                </div>
+              </div>
+              <!-- 창업 시기 -->
+              <p class="summarize-design font-0_5rem center">창업 준비 3개월</p>
+            </div>
+            <hr class="hr-thick-1px">  <!-- TODO: 색상 바꾸기 -->
+            <!-- 후기 -->
+            <span class="font-0_6rem font-lighter">
+              <strong>"나의 사업 아이템은 매력적인가?" 내 사업 아이템에 편견이 있는지를 객관적으로 점검할 수 있었으며,</strong>
+              사업할 때 주의해야 하는 정보들, 시장 조사하는 방법 등을 통해 기본적인 창업의 틀의 배경지식을 얻을 수 있었습니다.
+            </span>
+          </div>
+
           <div class="review-frame">테스트</div>
           <div class="review-frame">테스트</div>
           <div class="review-frame">테스트</div>
           <div class="review-frame">테스트</div>
         </div>
 
-        <p>창업가 피어러닝 참가자를 대상으로 익명으로 실시한 설문입니다.</p>
       </div>
+      <!-- 후기 주의사항 -->
+      <span class="font-0_6rem">* 창업가 피어러닝 참가자를 대상으로 익명으로 실시한 설문입니다.</span>
     </section>
 
-    <!-- 주요 특징 -->
-    <section class="column center col-gap-60px">
-      <div>
-        <h3 style="text-align: center">
+    <!-- NOTE 7. 프로그램 주요 특징 -->
+    <section class="col-top center col-gap-60px">
+      <!-- 섹션 제목 -->
+      <div class="text-center">
+        <span class="font-1_3rem font-bold">
           피어러닝 프로그램<br>
           주요 특징
-        </h3>
-        <hr class="dash">
+        </span>
+        <hr class="hr-dash">
       </div>
 
-      <!-- 본문 -->
       <div class="row center row-gap-24px">
-        <div class="program-frame">테스트</div>
+
+        <!-- program-frame -->
+        <div class="program-frame">
+          <div class="col-top align-center text-center expand-height space-between">
+            <!-- 특징 요약 이미지 -->
+            <img class="contents-image" alt="" src="">
+            <div>
+              <!-- 특징 1 -->
+              <span class="font-0_6rem font-lighter">스타트업 미디어 EO의 <strong>창업가 콘텐츠</strong></span><br>
+              <!-- 특징 2 -->
+              <span class="font-0_6rem font-lighter"><strong>제작 노하우</strong>를 그대로 담은 <strong>고퀄리티 콘텐츠</strong></span>
+            </div>
+          </div>
+        </div>
+
         <div class="program-frame">테스트</div>
         <div class="program-frame">테스트</div>
       </div>
     </section>
 
-    <!-- 도움을 준 분들 -->
-    <section class="column center col-gap-60px">
-      <div>
-        <h3>
-          프로그램 제작에
+    <!-- NOTE 8. 도움을 준 분들 -->
+    <section class="col-top center col-gap-60px">
+      <!-- 섹션 제목 -->
+      <div class="text-center">
+        <span class="font-1_3rem font-bold">
+          프로그램 제작에<br>
           도움을 주신 분들
-        </h3>
-        <hr class="dash">
+        </span>
+        <hr class="hr-dash">
       </div>
 
-      <!-- 본문 -->
       <div class="row center row-gap-24px">
         <div class="helper-frame">테스트</div>
         <div class="helper-frame">테스트</div>
         <div class="helper-frame">테스트</div>
-        <div class="helper-frame">테스트</div>
+
+        <!-- helper-frame -->
+        <div class="helper-frame col-top center col-gap-16px">
+          <!-- 도우미 이미지 -->
+          <img alt="" class="helper-profile" src=""> <!-- TODO 이미지 추가할 것 -->
+          <div class="col-top center col-gap-4px">
+            <!-- 이름 -->
+            <span class="font-0_7rem">신재식</span>
+            <!-- 소속 -->
+            <span class="font-0_5rem font-lighter">네스트컴퍼니 CEO</span>
+          </div>
+        </div>
+
         <div class="helper-frame">테스트</div>
         <div class="helper-frame">테스트</div>
         <div class="helper-frame">테스트</div>
@@ -178,32 +288,50 @@
   </article>
 
   <!-- 구조 고민중... -->
-  <section class="header-style center">
-    <p>성공적인 창업을 위한 긴 여정</p>
-    <h2>피어러닝 프로그램과 함께하세요</h2>
+  <!-- NOTE 9. 최종 자세히보기 -->
+  <section class="header-style col-top center col-gap-30px">
+    <span class="font-1_1rem">성공적인 창업을 위한 긴 여정</span>
+    <span class="font-2_2rem font-bold">피어러닝 프로그램과 함께하세요</span>
     <button class="button-green">
       자세히보기
     </button>
   </section>
 
-  <footer class="footer-style">
-    <div class="row space-between">
-      <div class="row center row-gap-12px">
+  <!-- NOTE 10. <푸터> 이용약관 안내 -->
+  <footer class="footer-style col-top col-gap-16px">
+    <div class="row-start expand-width space-between">
+      <!-- 이용약관 정보 -->
+      <span class="row center row-gap-8px font-0_6rem font-lighter">
         <p>이용약관</p>
         <p>|</p>
         <p>개인정보처리방침</p>
         <p>|</p>
         <p>채용문의</p>
+      </span>
+      <!-- SNS 정보 -->
+      <span class="row center row-gap-8px font-0_6rem font-lighter">
+        <p>블로그</p>
+        <p>페이스북</p>
+        <p>유튜브</p>
+      </span>
+    </div>
+
+    <hr class="hr-thick-1px"> <!-- TODO 색상 및 범위 조정 -->
+
+    <div class="row-start row-gap-60px">
+      <!-- 회사 정보 -->
+      <div class="col-top">
+        <span class="font-0_7rem">(주)이오스튜디오</span>
+        <span class="font-0_7rem font-lighter">대표이사 : 김태용 | 사업자 번호 : 501-87-01653 | 통신판매신고번호 : 제 2021-서울강남-00951호</span>
+        <span class="font-0_7rem font-lighter">대표번호 : 02-3442-692 | 주소 : 서울시 강남구 논현로167길 12, B1 | EO STUDIO all rights reserved</span>
       </div>
-      <div class="row">
-        <div class="row center row-gap-12px">
-          <p>블로그</p>
-          <p>페이스북</p>
-          <p>유튜브</p>
-        </div>
+      <!-- 문의 정보 -->
+      <div class="col-top">
+        <span class="font-0_7rem">고객센터</span>
+        <span class="font-0_7rem">평일 오전 10시 ~ 오후 6시, 채널톡 운영</span>
+        <span class="font-0_7rem">제휴 문의 : partner@eoeoeo.net</span>
       </div>
     </div>
-    <hr>
   </footer>
 </body>
 
