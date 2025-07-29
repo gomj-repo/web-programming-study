@@ -11,3 +11,4 @@ HTML/CSS를 이용하여 랜딩페이지를 구현한다.
   - FlexBox의 규칙을 따른 모듈화 전략 이해
   - HTML/CSS의 기본 규격(rem, px, 000%) 학습
 ### 결과 이미지
+![결과 이미지](docs/week-result.jpg)
